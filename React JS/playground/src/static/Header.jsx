@@ -17,6 +17,9 @@ const Header = () => {
         <Link to="/contact">
           <li>Contact</li>
         </Link>
+        <Link to="/axios">
+          <li>Axios consume</li>
+        </Link>
       </ul>
       {/* <Username name="Peter" />
       <Age myAge={31} /> */}
