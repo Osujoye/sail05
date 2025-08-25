@@ -94,4 +94,8 @@ const signIn = async (req, res) => {
   }
 };
 
+// ProductModel.find({
+//   userId: req.user._id
+// })
+
 module.exports = { getAllUser, signUp, getSingleUser, signIn };
