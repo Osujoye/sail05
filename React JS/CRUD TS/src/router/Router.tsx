@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Services from "../pages/Services";
 import UserDetail from "../pages/UserDetail";
+import CreateUser from "../pages/CreateUser";
 
 export const mainRoute = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ export const mainRoute = createBrowserRouter([
       {
         path: "/userdetail/:id",
         element: <UserDetail />,
+      },
+      {
+        path: "/createuser",
+        element: <CreateUser />,
       },
     ],
   },

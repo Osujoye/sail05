@@ -25,7 +25,7 @@ const Home = () => {
               key={i}
             >
               <div className=" h-16 w-16 bg-purple-700 rounded-full justify-center items-center flex font-extrabold text-3xl mr-3 text-white">
-                {user.username.charAt(0)}
+                {user?.username?.charAt(0)}
               </div>
               <div>
                 <h2 className=" font-bold text-lg"> {user.username} </h2>
